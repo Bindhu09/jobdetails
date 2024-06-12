@@ -1,0 +1,42 @@
+.total__tabs {
+  width: auto;
+  height: 37px;
+  margin: 20px;
+  font-family: 'Yantramanav';
+  @media (max-width: 1023px) {
+    margin:15px 10px;
+  }
+  @media (max-width: 599px) {
+    margin:10px 5px;
+  }
+}
+.tabs {
+  display: flex;
+  width: 100%;
+  gap: 70px;
+  @media (max-width: 1023px) {
+    gap: 30px;
+  }
+  @media (max-width: 599px) {
+    gap: 10px;
+  }
+}
+.tabs__elements {
+  display: flex;
+  justify-content: center;
+  max-width: 93px;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 23.34px;
+  padding-bottom: 5px;
+  margin: 10px;
+  @media (max-width: 1023px) {
+    font-size: 16px;
+    margin: 5px;
+  }
+  @media (max-width: 599px) {
+    font-size: 14px;
+    margin:2px;
+  }
+}
+

@@ -1,0 +1,133 @@
+.menu {
+  margin: 10px 25px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1023px) {
+    margin: 10px 20px;
+  }
+  @media (max-width: 599px) {
+    margin: 10px 15px;
+  }
+  &__image {
+    width: 24px;
+    height: 24px;
+    @media (max-width: 1023px) {
+      width: 20px;
+      height: 20px;
+    }
+    @media (max-width: 599px) {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__left-section {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+
+    &-dashboard {
+      color: #808080;
+      font-family: Yantramanav;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 25.94px;
+      text-align: left;
+      border-right: 1px solid #dbdbdb;
+      padding: 0px 10px;
+      @media (max-width: 1023px) {
+        font-size: 18px;
+        padding: 0px 5px;
+      }
+      @media (max-width: 599px) {
+        font-size: 16px;
+        padding: 0px 2px;
+      }
+      &-arrow {
+        color: #fb4e0b;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+
+    &-projects {
+      font-family: Yantramanav;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 20px;
+      color: #101f4c;
+      padding: 0px 10px;
+      @media (max-width: 1023px) {
+        font-size: 16px;
+        padding: 0px 5px;
+      }
+      @media (max-width: 599px) {
+        font-size: 14px;
+        padding: 0px 2px;
+      }
+    }
+  }
+
+  &__right-section {
+    display: flex;
+    width: fit-content;
+    height: 40px;
+    gap: 20px;
+    align-items: center;
+    @media (max-width: 1023px) {
+      gap: 10px;
+    }
+    @media (max-width: 599px) {
+      gap: 5px;
+    }
+    &-search {
+      @media (max-width: 599px) {
+        display: none;
+      }
+    }
+
+    &-filter {
+      @media (max-width: 599px) {
+        display: none;
+      }
+    }
+
+    &-tabs {
+      display: flex;
+      width: fit-content;
+      align-items: center;
+      border: 1px solid #d0d5dd;
+      border-radius: 4px;
+
+      &-list {
+        color: #000000;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #dbdbdb;
+        margin: 2px;
+        cursor: pointer;
+      }
+
+      &-grid {
+        color: #000000;
+        display: flex;
+        align-items: center;
+        margin: 2px;
+        cursor: pointer;
+      }
+    }
+    &-button {
+        cursor: pointer;
+        &-create{
+            background: linear-gradient(180deg, #FB4E0B 99.99%, #217BC0 100%);
+            box-shadow: 0px 4px 19px 0px #217BC012;
+            padding: 10px 16px 10px 16px;
+            border-radius: 5px;
+            border: transparent;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }
+  }
+}

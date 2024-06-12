@@ -1,0 +1,42 @@
+// Author : Bindhu
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.3);
+  width: auto;
+  &__company {
+    &-logo {
+      width: 153.5px;
+      height: 20px;
+    }
+  }
+  &__sidebar {
+    display: flex;
+    width: 114px;
+    justify-content: space-between;
+    align-items: center;
+    &-loginId {
+      margin-top: 10px;
+    }
+    &-subscription {
+        width: 24px;
+        height: 24px;
+    }
+    &-hamburger {
+        width: 24px;
+        height: 24px;
+    }
+  }
+  &__icons {
+    width: 100%;
+    height: 100%;
+  }
+}

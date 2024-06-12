@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Yantramanav';
+  src: url('fonts/YantramanavRegular.eot');
+  src: url('fonts/YantramanavRegular.eot') format('embedded-opentype'),
+       url('fonts/YantramanavRegular.woff2') format('woff2'),
+       url('fonts/YantramanavRegular.woff') format('woff'),
+       url('fonts/YantramanavRegular.ttf') format('truetype'),
+       url('fonts/YantramanavRegular.svg#YantramanavRegular') format('svg');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Yantramanav';
+}
